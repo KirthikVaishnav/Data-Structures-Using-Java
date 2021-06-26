@@ -1,4 +1,4 @@
-public class Mystack{
+public class basicoperations{
     int arr[]=new int[5];
     int top=0;
     public void push(int data)
