@@ -1,27 +1,29 @@
-public class implementdblist {
-    public ListNode head;
-    public ListNode tail;
+public class dblist {
+    public listnode head;
+    public listnode tail;
     public int length;
-    public class ListNode{
+
+    public class listnode{
+        listnode next;
+        listnode prev;
         int data;
-        ListNode prev;
-        ListNode next;
-        public ListNode(int d)
+        public listnode(int data)
         {
-            this.data=d;
+            this.data=data;
         }
     }
-    public Doublylinkedlist()
-    {
+
+    public boolean isEmpty(){
+        return length==0;
+    }
+
+    public int length(){
+        return length;
+    }
+    
+    public dblist(){
         this.head=null;
         this.tail=null;
         this.length=0;
-    }
-    public boolean isEmpty()
-    {
-        return length==0;
-    }
-    public int length(){
-        return length;
     }
 }
