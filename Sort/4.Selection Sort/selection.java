@@ -10,7 +10,7 @@ public class selection {
                 {
                     min=j;
                 }
-                            }
+           }
             int temp=a[i];            //swapping the values 
             a[i]=a[min];           
             a[min]=temp;
