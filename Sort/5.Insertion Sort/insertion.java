@@ -11,6 +11,7 @@ public class insertion {
                     a[j+1]=a[j];
                     j=j-1;
                 }
+            
                 a[j+1]=key;
             }
     }
