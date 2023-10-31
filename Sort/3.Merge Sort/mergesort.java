@@ -3,6 +3,7 @@ public class mergesort {
 
         int n1 = m - l + 1;
         int n2 = r - m;
+        
         int L[] = new int[n1]; //creating new array to store the left and right elements
         int R[] = new int[n2];
         for (int i = 0; i < n1; ++i)
